@@ -23,7 +23,8 @@ public class ShortestPath {
         return (float)Math.sqrt(X2+Y2);
     }
     static void main(String[] args) {
-        String path = "WNEENESENNN";
+//        String path = "WNEENESENNN";
+        String path = "NS";
         System.out.println(findShortestPath(path));
     }
 }
