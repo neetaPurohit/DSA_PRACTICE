@@ -2,7 +2,7 @@ package sorting;
 
 public class countingSort {
 public static void CountSort(int[] arr){
-//    1. find largest number for count array
+//    1. find the largest number for count array
     int largest = Integer.MIN_VALUE;
     for (int i=0; i<arr.length; i++){
      largest = Math.max(largest,arr[i]);
