@@ -1,4 +1,4 @@
-package BitManuplation;
+package BitManipulation;
 
 public class XOR {
     static void main(String[] args) {
