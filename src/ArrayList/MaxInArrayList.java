@@ -14,6 +14,7 @@ public class MaxInArrayList {
         list.add(53); //4
 
         int max = Integer.MIN_VALUE;
+//        T.c = O(n)
         for (int i=0; i<list.size(); i++){
 //            if (max < list.get(i)){
 //                max = list.get(i);
